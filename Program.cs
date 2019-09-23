@@ -1,4 +1,5 @@
 ﻿using System;
+using CSharpClass.Lessons;
 
 namespace CSharpClass
 {
@@ -8,7 +9,16 @@ namespace CSharpClass
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           // Console.WriteLine("Hello World!");
+           MyLesson5Examples();
         } // End Method Main
+
+        static void MyLesson5Examples()
+        {
+            Lesson5 myFive = new Lesson5();
+            myFive.ConvertFloatToInt();
+            myFive.LongFromtInt();
+        } // End method my lesson 5 examples
+
     } // End Class
 } // end namespace
