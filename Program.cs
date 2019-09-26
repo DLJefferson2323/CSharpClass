@@ -11,8 +11,24 @@ namespace CSharpClass
         {
            // Console.WriteLine("Hello World!");
            // MyLesson5Examples();
-           MyLesson6Examples(); 
+           // MyLesson6Examples();
+           MyLesson7Examples();
         } // End Method Main
+
+        static void MyLesson7Examples()
+        {
+            Lesson7 mySeven = new Lesson7();
+            mySeven.BasicMath();
+            mySeven.BasicModulus();
+            mySeven.MyCheckOperator1();
+            mySeven.MyCheckOperator2();
+            mySeven.MyLeftShiftOperator();
+            mySeven.MyRightShiftOperator();
+            mySeven.MyAndAssignmentOperator();
+            mySeven.MyOrAssignmentOperator();
+            mySeven.MyXORAssignmentOperator();
+            mySeven.MyIncrementDecrementExample();
+        } // end method my lesson 7 examples
 
         static void MyLesson6Examples()
         {
