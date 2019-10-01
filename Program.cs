@@ -12,8 +12,34 @@ namespace CSharpClass
            // Console.WriteLine("Hello World!");
            // MyLesson5Examples();
            // MyLesson6Examples();
-           MyLesson7Examples();
+           //MyLesson7Examples();
+           //MyExampleSample();
+           //MyLesson8Examples();
+           MyOtherLesson8Examples();
         } // End Method Main
+
+        static void MyOtherLesson8Examples()
+        {
+            Lesson8 MyLesson8 = new Lesson8();
+            //MyLesson8.BasicWhileLoop();
+            //MyLesson8.BasicDoWhileLoopExample();
+            //MyLesson8.BasicForLoopExample(5);
+            //MyLesson8.BasicForEachLoopExample();
+            Console.WriteLine(MyLesson8.BasicJumpStatementExample("Sunday"));
+            MyLesson8.BasicOtherJumpStatement();
+        } // end method my other lesson 8 examples
+
+        static void MyLesson8Examples()
+        {
+            Lesson8 myEight = new Lesson8();
+            myEight.BasicIfStatement();
+            myEight.BasicIfElseExample();
+            myEight.BasicIfElseChainExample();
+            Console.WriteLine(myEight.BasicAndConditionExample());
+            Console.WriteLine(myEight.BasicOrConditionExample(34));
+            myEight.BasicTernaryOperatorExample(42);
+            myEight.BasicSwitchExample(2);  
+        } // end method my lesson 8 examples
 
         static void MyLesson7Examples()
         {
@@ -53,6 +79,12 @@ namespace CSharpClass
             myFive.ConvertFloatToInt();
             myFive.LongFromtInt();
         } // End method my lesson 5 examples
+
+        static void MyExampleSample()
+        {
+            Example1 exam1 = new Example1();
+            exam1.MyExampleSample();
+        }
 
     } // End Class
 } // end namespace
