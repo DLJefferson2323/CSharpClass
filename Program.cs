@@ -7,6 +7,16 @@ namespace CSharpClass
     Lesson 3 - My First Application */
     class Program
     {
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            //myNine.BasicArray();
+            //myNine.MutliArraySample();
+            //myNine.My3DArrayExample();
+            myNine.MyJaggedArrayExample();
+        } // end method my lesson 9 examples
+        
+                
         static void Main(string[] args)
         {
            // Console.WriteLine("Hello World!");
@@ -15,7 +25,8 @@ namespace CSharpClass
            //MyLesson7Examples();
            //MyExampleSample();
            //MyLesson8Examples();
-           MyOtherLesson8Examples();
+           //MyOtherLesson8Examples();
+           MyLesson9Examples();
         } // End Method Main
 
         static void MyOtherLesson8Examples()
@@ -25,8 +36,8 @@ namespace CSharpClass
             //MyLesson8.BasicDoWhileLoopExample();
             //MyLesson8.BasicForLoopExample(5);
             //MyLesson8.BasicForEachLoopExample();
-            Console.WriteLine(MyLesson8.BasicJumpStatementExample("Sunday"));
-            MyLesson8.BasicOtherJumpStatement();
+            //Console.WriteLine(MyLesson8.BasicJumpStatementExample("Sunday"));
+            //MyLesson8.BasicOtherJumpStatement();
         } // end method my other lesson 8 examples
 
         static void MyLesson8Examples()
