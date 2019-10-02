@@ -6,17 +6,7 @@ namespace CSharpClass
     /* This class is the start of My Application.
     Lesson 3 - My First Application */
     class Program
-    {
-        static void MyLesson9Examples()
-        {
-            Lesson9 myNine = new Lesson9();
-            //myNine.BasicArray();
-            //myNine.MutliArraySample();
-            //myNine.My3DArrayExample();
-            myNine.MyJaggedArrayExample();
-        } // end method my lesson 9 examples
-        
-                
+    {       
         static void Main(string[] args)
         {
            // Console.WriteLine("Hello World!");
@@ -26,8 +16,27 @@ namespace CSharpClass
            //MyExampleSample();
            //MyLesson8Examples();
            //MyOtherLesson8Examples();
-           MyLesson9Examples();
+           //MyLesson9Examples();
+           MyLesson10Examples();
         } // End Method Main
+
+        static void MyLesson10Examples()
+        {
+            Lesson10 myTen = new Lesson10();
+            myTen.BasicPublicMethod();
+            Lesson5 myFive = new Lesson5();
+            myFive._myLongValue = 12345L; // can see because it's internal
+
+        } // end method my lesson 10 examples
+
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            //myNine.BasicArray();
+            //myNine.MutliArraySample();
+            //myNine.My3DArrayExample();
+            //myNine.MyJaggedArrayExample();
+        } // end method my lesson 9 examples
 
         static void MyOtherLesson8Examples()
         {
