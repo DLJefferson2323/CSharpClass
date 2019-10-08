@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpClass.Lessons;
+using CSharpClass.Lab2;
 
 namespace CSharpClass
 {
@@ -9,16 +10,58 @@ namespace CSharpClass
     {       
         static void Main(string[] args)
         {
-           // Console.WriteLine("Hello World!");
-           // MyLesson5Examples();
-           // MyLesson6Examples();
+           //Console.WriteLine("Hello World!");
+           //MyLesson5Examples();
+           //MyLesson6Examples();
            //MyLesson7Examples();
            //MyExampleSample();
            //MyLesson8Examples();
            //MyOtherLesson8Examples();
            //MyLesson9Examples();
-           MyLesson10Examples();
+           //MyLesson10Examples();
+           //MyLesson11Examples();
+           //MyBeerSong();
+           //MyLab2();
+           MyLesson13House();
         } // End Method Main
+
+        static void MyLesson13House()    
+        {
+            House myHouse = new House(36, "granite");
+            Console.WriteLine(myHouse.DoorColor);
+            myHouse.RoofType = "steel";
+            myHouse.DoorOpenClose();
+        } // end my method my lesson 13 house
+
+        static void MyLab2()
+        {
+            Counting myLab2 = new Counting();
+            myLab2.MyLab2();
+        } // end my lab 2
+
+        static void MyBeerSong()
+        {
+            BottlesOfBeer beer = new BottlesOfBeer();
+            Console.WriteLine(beer.LetsSing());
+        } // end my beer song
+
+        static void MyLesson11Examples()
+        {
+            Lesson11 myEleven = new Lesson11("Happy", 69);
+            Lesson11 myOtherEleven = new Lesson11(22);
+            Lesson11 MyLesson11 = new Lesson11();
+
+            Lesson11Struct myStruct = new Lesson11Struct(15.99m, "Jefferson", 
+            "The Calling");
+            int myValue = 14;
+            myEleven.MyBasicRefExample(ref myValue);
+            Console.WriteLine(myValue + " from program");
+
+            string first, last;
+            MyLesson11.MyBasicOutExample("Optimus Prime", out first, out last);
+            Console.WriteLine(first);
+            Console.WriteLine(last);
+        } // end method my lesson 11 examples
 
         static void MyLesson10Examples()
         {
