@@ -22,8 +22,20 @@ namespace CSharpClass
            //MyLesson11Examples();
            //MyBeerSong();
            //MyLab2();
-           MyLesson13House();
+           //MyLesson13House();
+           MyLesson14Examples();
         } // End Method Main
+
+        static void MyLesson14Examples()
+        {
+            Lesson14Static.CelsiustoFahrenheit("34.5");
+            Lesson14Static.FahrenheittoCelsius("34.5");
+
+            Lesson14Derived myLesson14 = new Lesson14Derived(9);
+            myLesson14.ShowResultsFeet();
+            myLesson14.ShowResultMiles();
+
+        } // end my method my lesson 14 examples
 
         static void MyLesson13House()    
         {
