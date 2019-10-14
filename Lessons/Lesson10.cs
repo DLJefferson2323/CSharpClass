@@ -19,7 +19,7 @@ namespace CSharpClass.Lessons
             // Will access the private method above
             BasicPrivateMethod();
             // The next action is to change a value from lesson 5
-            Lesson5 MyLesson5= new Lesson5();
+            Lesson5 MyLesson5 = new Lesson5();
             MyLesson5._myLongValue = 985632741L;
             Console.WriteLine("This value {0} is from lesson 5 internal modifier",
             MyLesson5._myLongValue);
