@@ -11,3 +11,11 @@ This project goes over C Sharp Fundamentals. There will be many classes that wil
  - Lesson 8 - Control Flow Statements
  - Lesson 9 - Arrays
  - Lesson 10 - Access Modifiers
+ - Lesson 11 - Constructors, Structs & More
+ - Lesson 12 - Inheritance & Polymorphism
+ - Lesson 13 - Encapsulation
+ - Lesson 14 - Static, Abstract & Interfaces
+ - Lesson 15 - Enum, Indexers & More
+ - Lesson 16 - Collections & LINQ
+ - Lesson 17 - Delegates, Events & Lambdas
+ - Lesson 18 - Exception Handling
