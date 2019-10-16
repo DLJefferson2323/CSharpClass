@@ -27,8 +27,45 @@ namespace CSharpClass
            //MyLesson14Examples();
            //Lesson15Examples();
            //MyLesson16Examples();
-            MyTelevision();
+           //MyTelevision();
+           //MyLesson17Examples();
+            //ADogsAge();
+            MyLesson18Examples();
         } // End Method Main
+
+        static void MyLesson18Examples()
+        {
+            Lesson18 my18 = new Lesson18();
+            House myHouse = null;
+            //my18.MyThrowExample(myHouse);
+            //my18.MyException(myHouse);
+            
+            my18.MyArrayException();
+        } // end method lesson 18 examples
+
+
+        static void ADogsAge()
+        {
+            //ADogsAge dYears = new ADogsAge(5, ADogsAge.DogSize.Small);
+            //ADogsAge years = new ADogsAge(15, ADogsAge.DogSize.Medium);
+        } // end my lab 3
+
+        public delegate void TryOn(string val);
+        static void MyLesson17Examples()
+        {
+            Lesson17 my17 = new Lesson17("Fedora" , 8);
+            TryOn theHat = my17.TryOnHat;
+            theHat("I tried on a " + my17.HatType + " hat that was a size "
+            + my17.HatSize);
+            
+            Lesson17 MyLesson17 = new Lesson17();
+
+            Lesson17 myFav17 = new Lesson17("Skullcap");
+            Console.WriteLine(myFav17.MyResult);
+            Console.WriteLine(myFav17.MyLambdaExample(9));
+
+
+        } // end method my lesson 17
 
         static void MyTelevision()
         {
